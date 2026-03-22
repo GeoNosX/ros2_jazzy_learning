@@ -1,3 +1,25 @@
+# ROS 2 Workspace Build Folders
+# (Never upload these, because 'colcon' recreates them automatically!)
 build/
 install/
 log/
+
+# Python Virtual Environments and Cache
+# (These change depending on the computer, so don't share them)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# VS Code / IDE settings
+# (Keep your personal editor preferences private)
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
